@@ -11,7 +11,7 @@
   "author": "MrRabbit <1993iweb@gmail.com>",
   "scripts": {
     "build": "tsc",
-    "pkg": "npm run build && npm version patch && npm publish"
+    "publish:pkg": "npm run build && npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
