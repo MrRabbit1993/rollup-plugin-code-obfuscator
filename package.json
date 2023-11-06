@@ -1,0 +1,45 @@
+{
+  "name": "rollup-plugin-code-obfuscator",
+  "version": "1.0.0",
+  "description": "Plugin for Rollup to obfuscate JS code",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "MrRabbit <1993iweb@gmail.com>",
+  "scripts": {
+    "build": "tsc",
+    "publish": "npm run build && npm version patch && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRabbit1993/rollup-plugin-code-obfuscator.git"
+  },
+  "keywords": [
+    "rollup-plugin",
+    "vite-plugin",
+    "obfuscator",
+    "javascript-obfuscator",
+    "obfuscate",
+    "obfuscation"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrRabbit1993/rollup-plugin-code-obfuscator/issues"
+  },
+  "homepage": "https://github.com/MrRabbit1993/rollup-plugin-code-obfuscator#readme",
+  "dependencies": {
+    "@rollup/pluginutils": "^5.0.2"
+  },
+  "peerDependencies": {
+    "javascript-obfuscator": "*",
+    "rollup": "^2.56.3||^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "javascript-obfuscator": "^4.0.2",
+    "rollup": "^3.20.2",
+    "typescript": "^5.0.4"
+  }
+}
