@@ -3,7 +3,7 @@
 
 
 ```sh
-pnpm add --dev rollup-plugin-code-obfuscator javascript-obfuscator
+pnpm add --save-dev rollup-plugin-code-obfuscator javascript-obfuscator
 ```
 
 ## Features
