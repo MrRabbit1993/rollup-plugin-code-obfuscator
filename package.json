@@ -10,7 +10,7 @@
   "author": "MrRabbit <1993iweb@gmail.com>",
   "scripts": {
     "build": "tsc",
-    "publish": "npm run build && npm version patch && npm publish"
+    "pkg": "npm run build && npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
