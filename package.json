@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MrRabbit1993/rollup-plugin-code-obfuscator.git"
+    "url": ""
   },
   "keywords": [
     "rollup-plugin",
@@ -25,10 +25,6 @@
     "obfuscation"
   ],
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MrRabbit1993/rollup-plugin-code-obfuscator/issues"
-  },
-  "homepage": "https://github.com/MrRabbit1993/rollup-plugin-code-obfuscator#readme",
   "dependencies": {
     "@rollup/pluginutils": "^5.0.2"
   },
